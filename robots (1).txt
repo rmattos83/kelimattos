@@ -1,0 +1,38 @@
+# robots.txt — drakelimattos.com.br
+# Gerado para Dra. Keli Mattos | Nutricionista Comportamental
+
+User-agent: *
+Allow: /
+
+# Bloquear arquivos desnecessários (se houver)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Crawl delay (opcional — respeitar servidores)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://www.drakelimattos.com.br/sitemap.xml
+
+# Permitir bots de IAs (Perplexity, GPTBot, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
